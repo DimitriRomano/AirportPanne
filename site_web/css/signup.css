@@ -1,0 +1,78 @@
+*{
+    margin: 0px;
+    padding: 0px;
+  }
+  body{
+    background-image: url(../images/signup.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  h1{
+    font-size:40px;
+    color: red;
+    margin-top: 250px
+  }
+  p{
+    font-size: 17px;
+    color: white;
+  }
+  h3{
+    font-size: 25px;
+    color: white;
+    margin-bottom: -35%;
+  }
+
+  .glyphicon-pencil{
+    font-size: 50px;
+    color: white;
+    float: right;
+    margin-top: 20px;
+  }
+  hr{
+    border-top-color: white;
+    margin-right:5rem;
+  }
+  .col-md-5{
+    margin-top: 15%;
+    box-shadow: -1px 1px 60px 10px black;
+    background: rgba(0, 0, 0, 0.2);
+  }
+  .label{
+      font-weight: normal;
+      margin-top: 15px;
+      color: white;
+      font-size: 19px;
+  }
+  .form-control{
+    background: transparant;
+    border-radius: 0px;
+    border: 0px;
+    border-bottom: 1px solid white;
+    font-size: 18px;
+    margin-top: 15px;
+    height: 40px;
+    color: w  hite;
+  }
+
+  small{
+    font-size: 18px;
+    color: white;
+  }
+  input[type="radio"]{
+    margin-top: 22px;
+  }
+  option{
+    color: grey;
+  }
+  .text-left{
+    margin-top: 20px;
+    font-size: 18px;
+    width: 120px;
+    margin-left: 80px;
+    margin-bottom: 20px;
+  }
+  @media only screen and (max-width : 767px){
+    h3{
+        margin-right: 30%;
+    }
+}
